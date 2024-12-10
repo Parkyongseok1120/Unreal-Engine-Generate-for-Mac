@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		6D19FC912D01BB1E009A1945 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D19FC772D01BB1A009A1945 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D19FC7E2D01BB1A009A1945;
+			remoteInfo = "Unreal GenerateTool";
+		};
+		6D19FC9B2D01BB1E009A1945 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D19FC772D01BB1A009A1945 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D19FC7E2D01BB1A009A1945;
+			remoteInfo = "Unreal GenerateTool";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D19FC7F2D01BB1A009A1945 /* Unreal GenerateTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unreal GenerateTool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D19FC902D01BB1E009A1945 /* Unreal GenerateToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unreal GenerateToolTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D19FC9A2D01BB1E009A1945 /* Unreal GenerateToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unreal GenerateToolUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6D19FC812D01BB1A009A1945 /* Unreal GenerateTool */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Unreal GenerateTool";
+			sourceTree = "<group>";
+		};
+		6D19FC932D01BB1E009A1945 /* Unreal GenerateToolTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Unreal GenerateToolTests";
+			sourceTree = "<group>";
+		};
+		6D19FC9D2D01BB1E009A1945 /* Unreal GenerateToolUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Unreal GenerateToolUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D19FC7C2D01BB1A009A1945 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D19FC8D2D01BB1E009A1945 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D19FC972D01BB1E009A1945 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D19FC762D01BB1A009A1945 = {
+			isa = PBXGroup;
+			children = (
+				6D19FC812D01BB1A009A1945 /* Unreal GenerateTool */,
+				6D19FC932D01BB1E009A1945 /* Unreal GenerateToolTests */,
+				6D19FC9D2D01BB1E009A1945 /* Unreal GenerateToolUITests */,
+				6D19FC802D01BB1A009A1945 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D19FC802D01BB1A009A1945 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D19FC7F2D01BB1A009A1945 /* Unreal GenerateTool.app */,
+				6D19FC902D01BB1E009A1945 /* Unreal GenerateToolTests.xctest */,
+				6D19FC9A2D01BB1E009A1945 /* Unreal GenerateToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D19FC7E2D01BB1A009A1945 /* Unreal GenerateTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D19FCA42D01BB1E009A1945 /* Build configuration list for PBXNativeTarget "Unreal GenerateTool" */;
+			buildPhases = (
+				6D19FC7B2D01BB1A009A1945 /* Sources */,
+				6D19FC7C2D01BB1A009A1945 /* Frameworks */,
+				6D19FC7D2D01BB1A009A1945 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6D19FC812D01BB1A009A1945 /* Unreal GenerateTool */,
+			);
+			name = "Unreal GenerateTool";
+			packageProductDependencies = (
+			);
+			productName = "Unreal GenerateTool";
+			productReference = 6D19FC7F2D01BB1A009A1945 /* Unreal GenerateTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D19FC8F2D01BB1E009A1945 /* Unreal GenerateToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D19FCA72D01BB1E009A1945 /* Build configuration list for PBXNativeTarget "Unreal GenerateToolTests" */;
+			buildPhases = (
+				6D19FC8C2D01BB1E009A1945 /* Sources */,
+				6D19FC8D2D01BB1E009A1945 /* Frameworks */,
+				6D19FC8E2D01BB1E009A1945 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D19FC922D01BB1E009A1945 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6D19FC932D01BB1E009A1945 /* Unreal GenerateToolTests */,
+			);
+			name = "Unreal GenerateToolTests";
+			packageProductDependencies = (
+			);
+			productName = "Unreal GenerateToolTests";
+			productReference = 6D19FC902D01BB1E009A1945 /* Unreal GenerateToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D19FC992D01BB1E009A1945 /* Unreal GenerateToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D19FCAA2D01BB1E009A1945 /* Build configuration list for PBXNativeTarget "Unreal GenerateToolUITests" */;
+			buildPhases = (
+				6D19FC962D01BB1E009A1945 /* Sources */,
+				6D19FC972D01BB1E009A1945 /* Frameworks */,
+				6D19FC982D01BB1E009A1945 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D19FC9C2D01BB1E009A1945 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6D19FC9D2D01BB1E009A1945 /* Unreal GenerateToolUITests */,
+			);
+			name = "Unreal GenerateToolUITests";
+			packageProductDependencies = (
+			);
+			productName = "Unreal GenerateToolUITests";
+			productReference = 6D19FC9A2D01BB1E009A1945 /* Unreal GenerateToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D19FC772D01BB1A009A1945 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					6D19FC7E2D01BB1A009A1945 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					6D19FC8F2D01BB1E009A1945 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 6D19FC7E2D01BB1A009A1945;
+					};
+					6D19FC992D01BB1E009A1945 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 6D19FC7E2D01BB1A009A1945;
+					};
+				};
+			};
+			buildConfigurationList = 6D19FC7A2D01BB1A009A1945 /* Build configuration list for PBXProject "Unreal GenerateTool" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D19FC762D01BB1A009A1945;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6D19FC802D01BB1A009A1945 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D19FC7E2D01BB1A009A1945 /* Unreal GenerateTool */,
+				6D19FC8F2D01BB1E009A1945 /* Unreal GenerateToolTests */,
+				6D19FC992D01BB1E009A1945 /* Unreal GenerateToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D19FC7D2D01BB1A009A1945 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D19FC8E2D01BB1E009A1945 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D19FC982D01BB1E009A1945 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D19FC7B2D01BB1A009A1945 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D19FC8C2D01BB1E009A1945 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D19FC962D01BB1E009A1945 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D19FC922D01BB1E009A1945 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D19FC7E2D01BB1A009A1945 /* Unreal GenerateTool */;
+			targetProxy = 6D19FC912D01BB1E009A1945 /* PBXContainerItemProxy */;
+		};
+		6D19FC9C2D01BB1E009A1945 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D19FC7E2D01BB1A009A1945 /* Unreal GenerateTool */;
+			targetProxy = 6D19FC9B2D01BB1E009A1945 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6D19FCA22D01BB1E009A1945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D19FCA32D01BB1E009A1945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		6D19FCA52D01BB1E009A1945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Unreal GenerateTool/Unreal_GenerateTool.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8JC597MSL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Unreal-GenerateTool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6D19FCA62D01BB1E009A1945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Unreal GenerateTool/Unreal_GenerateTool.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8JC597MSL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Unreal-GenerateTool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6D19FCA82D01BB1E009A1945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8JC597MSL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Unreal-GenerateToolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unreal GenerateTool.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Unreal GenerateTool";
+			};
+			name = Debug;
+		};
+		6D19FCA92D01BB1E009A1945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8JC597MSL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Unreal-GenerateToolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unreal GenerateTool.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Unreal GenerateTool";
+			};
+			name = Release;
+		};
+		6D19FCAB2D01BB1E009A1945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8JC597MSL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Unreal-GenerateToolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Unreal GenerateTool";
+			};
+			name = Debug;
+		};
+		6D19FCAC2D01BB1E009A1945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8JC597MSL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Unreal-GenerateToolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Unreal GenerateTool";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D19FC7A2D01BB1A009A1945 /* Build configuration list for PBXProject "Unreal GenerateTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D19FCA22D01BB1E009A1945 /* Debug */,
+				6D19FCA32D01BB1E009A1945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D19FCA42D01BB1E009A1945 /* Build configuration list for PBXNativeTarget "Unreal GenerateTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D19FCA52D01BB1E009A1945 /* Debug */,
+				6D19FCA62D01BB1E009A1945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D19FCA72D01BB1E009A1945 /* Build configuration list for PBXNativeTarget "Unreal GenerateToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D19FCA82D01BB1E009A1945 /* Debug */,
+				6D19FCA92D01BB1E009A1945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D19FCAA2D01BB1E009A1945 /* Build configuration list for PBXNativeTarget "Unreal GenerateToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D19FCAB2D01BB1E009A1945 /* Debug */,
+				6D19FCAC2D01BB1E009A1945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D19FC772D01BB1A009A1945 /* Project object */;
+}
