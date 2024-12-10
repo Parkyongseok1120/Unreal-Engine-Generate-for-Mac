@@ -10,14 +10,13 @@ This tool is designed to make the "Generate Visual Studio project files" feature
 ------------------
 Release Download Link : 
 
-
+------------------
 # Support info 
 
-
-** Supported Unreal engine Versions: **
+## Supported Unreal engine Versions: 
 Unreal Engine 5.0 to 5.5 
 
-** Supported macOS Versions: **
+## Supported macOS Versions: 
 Minimum: macOS 11 (Big Sur)
 Recommended: macOS 12 (Monterey) or later for optimal performance.
 
