@@ -782,7 +782,7 @@
                                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             <size key="minSize" width="632" height="219"/>
-                                            <size key="maxSize" width="642" height="10000000"/>
+                                            <size key="maxSize" width="649" height="10000000"/>
                                         </textView>
                                     </subviews>
                                 </clipView>
@@ -795,11 +795,6 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                             </scrollView>
-                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="39P-N2-Ndk">
-                                <rect key="frame" x="288" y="397" width="135" height="134"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <imageCell key="cell" controlSize="large" continuous="YES" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="ue-logotype-2023-vertical-white-1686x2048-bbfded26daa7" id="Vob-cm-bjG"/>
-                            </imageView>
                             <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="66p-UL-OVx">
                                 <rect key="frame" x="615" y="32" width="77" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
@@ -809,6 +804,20 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
+                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oDU-19-eZX">
+                                <rect key="frame" x="214" y="389" width="286" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <textFieldCell key="cell" controlSize="large" lineBreakMode="clipping" continuous="YES" alignment="center" title="Unreal Engine Generate" id="fIh-Lr-f3z">
+                                    <font key="font" textStyle="title1" name=".SFNS-Regular"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="39P-N2-Ndk">
+                                <rect key="frame" x="257" y="395" width="199" height="168"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <imageCell key="cell" controlSize="large" continuous="YES" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="UEG Logo 2" id="Vob-cm-bjG"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="R6Z-0o-vzb"/>
                         <viewLayoutGuide key="layoutMargins" id="rdT-ZQ-FVJ"/>
@@ -823,6 +832,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ue-logotype-2023-vertical-white-1686x2048-bbfded26daa7" width="1686" height="2048"/>
+        <image name="UEG Logo 2" width="1024" height="1024"/>
     </resources>
 </document>
