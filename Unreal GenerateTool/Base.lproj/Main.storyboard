@@ -707,11 +707,11 @@
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="Unreal_GenerateTool" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="474"/>
                         <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
                         <subviews>
-                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="44J-mU-gXZ">
-                                <rect key="frame" x="140" y="59" width="200" height="16"/>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="44J-mU-gXZ">
+                                <rect key="frame" x="140" y="84" width="200" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <textFieldCell key="cell" controlSize="large" lineBreakMode="clipping" continuous="YES" alignment="center" title="Please open Your '.uproject' files" id="0cy-Nh-qhz">
                                     <font key="font" metaFont="system"/>
@@ -719,13 +719,8 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="39P-N2-Ndk">
-                                <rect key="frame" x="173" y="91" width="135" height="134"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <imageCell key="cell" controlSize="large" continuous="YES" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="ue-logotype-2023-vertical-white-1686x2048-bbfded26daa7" id="Vob-cm-bjG"/>
-                            </imageView>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Wc-Ls-yJ2" userLabel="findUProjectFiles">
-                                <rect key="frame" x="195" y="17" width="90" height="40"/>
+                                <rect key="frame" x="195" y="36" width="90" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <buttonCell key="cell" type="push" title="Open File" bezelStyle="rounded" alignment="center" controlSize="large" continuous="YES" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="6Rr-ca-sxA">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -735,6 +730,36 @@
                                     <action selector="selectUProjectFile:" target="XfG-lQ-9wD" id="0sE-Zy-wqy"/>
                                 </connections>
                             </button>
+                            <scrollView fixedFrame="YES" borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a12-Vx-5JQ">
+                                <rect key="frame" x="98" y="108" width="285" height="162"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <clipView key="contentView" drawsBackground="NO" id="KzS-bW-WIa">
+                                    <rect key="frame" x="0.0" y="0.0" width="270" height="162"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <textView wantsLayer="YES" importsGraphics="NO" richText="NO" verticallyResizable="YES" spellingCorrection="YES" smartInsertDelete="YES" id="0Sd-hS-URU">
+                                            <rect key="frame" x="0.0" y="0.0" width="270" height="162"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            <size key="minSize" width="270" height="162"/>
+                                            <size key="maxSize" width="285" height="10000000"/>
+                                        </textView>
+                                    </subviews>
+                                </clipView>
+                                <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="pIf-9w-HWr">
+                                    <rect key="frame" x="-100" y="-100" width="225" height="15"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                                <scroller key="verticalScroller" verticalHuggingPriority="750" horizontal="NO" id="zs6-Rp-MiA">
+                                    <rect key="frame" x="270" y="0.0" width="15" height="162"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                            </scrollView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="39P-N2-Ndk">
+                                <rect key="frame" x="173" y="288" width="135" height="134"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <imageCell key="cell" controlSize="large" continuous="YES" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="ue-logotype-2023-vertical-white-1686x2048-bbfded26daa7" id="Vob-cm-bjG"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Uis-ZY-IiI"/>
                         <viewLayoutGuide key="layoutMargins" id="oD8-ZL-yo6"/>
@@ -742,7 +767,7 @@
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="655"/>
+            <point key="canvasLocation" x="75" y="757"/>
         </scene>
     </scenes>
     <resources>
