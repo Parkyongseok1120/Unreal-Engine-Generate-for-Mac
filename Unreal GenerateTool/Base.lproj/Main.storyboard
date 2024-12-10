@@ -685,11 +685,15 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
+                    <window key="window" title="Unreal engine Generate Tool for macOS" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-                        <rect key="contentRect" x="196" y="240" width="480" height="270"/>
+                        <rect key="contentRect" x="500" y="570" width="710" height="298"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
+                        <value key="minSize" type="size" width="710" height="570"/>
+                        <value key="maxSize" type="size" width="710" height="570"/>
+                        <value key="minFullScreenContentSize" type="size" width="710" height="570"/>
+                        <value key="maxFullScreenContentSize" type="size" width="710" height="570"/>
                         <connections>
                             <outlet property="delegate" destination="B8D-0N-5wS" id="98r-iN-zZc"/>
                         </connections>
@@ -700,27 +704,62 @@
                 </windowController>
                 <customObject id="Oky-zY-oP4" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="250"/>
+            <point key="canvasLocation" x="181" y="264"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="Unreal_GenerateTool" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="710" height="570"/>
                         <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
                         <subviews>
                             <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="44J-mU-gXZ">
-                                <rect key="frame" x="140" y="85" width="200" height="16"/>
+                                <rect key="frame" x="253" y="86" width="205" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <textFieldCell key="cell" controlSize="large" lineBreakMode="clipping" continuous="YES" alignment="center" title="Please open Your '.uproject' files" id="0cy-Nh-qhz">
+                                <textFieldCell key="cell" controlSize="large" lineBreakMode="clipping" continuous="YES" alignment="center" title="Please open your '.uproject' files" id="0cy-Nh-qhz">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
+                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nwq-n5-AaF">
+                                <rect key="frame" x="317" y="355" width="77" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <textFieldCell key="cell" controlSize="large" lineBreakMode="clipping" continuous="YES" alignment="center" title="Log Output" id="A2z-1Q-hwc">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="tertiaryLabelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gGE-th-yXf">
+                                <rect key="frame" x="5" y="2" width="286" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <textFieldCell key="cell" controlSize="large" lineBreakMode="clipping" continuous="YES" alignment="center" id="ZOR-dy-xHh">
+                                    <font key="font" metaFont="system"/>
+                                    <string key="title">The supported engine versions : 5.0 to 5.5.
+
+
+
+
+
+
+</string>
+                                    <color key="textColor" name="tertiaryLabelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J84-Te-YqH">
+                                <rect key="frame" x="484" y="11" width="209" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <textFieldCell key="cell" controlSize="large" lineBreakMode="clipping" continuous="YES" alignment="center" title="Developed by YongseokPark1120" id="2Dc-gH-7vp">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="tertiaryLabelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Wc-Ls-yJ2" userLabel="findUProjectFiles">
-                                <rect key="frame" x="195" y="37" width="90" height="40"/>
+                                <rect key="frame" x="310" y="36" width="90" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <buttonCell key="cell" type="push" title="Open File" bezelStyle="rounded" alignment="center" controlSize="large" continuous="YES" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="6Rr-ca-sxA">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -731,19 +770,19 @@
                                 </connections>
                             </button>
                             <scrollView fixedFrame="YES" borderType="line" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" scrollerKnobStyle="dark" translatesAutoresizingMaskIntoConstraints="NO" id="a12-Vx-5JQ">
-                                <rect key="frame" x="98" y="110" width="285" height="162"/>
+                                <rect key="frame" x="31" y="126" width="649" height="221"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <clipView key="contentView" drawsBackground="NO" id="KzS-bW-WIa">
-                                    <rect key="frame" x="1" y="1" width="268" height="160"/>
+                                    <rect key="frame" x="1" y="1" width="632" height="219"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <textView wantsLayer="YES" importsGraphics="NO" richText="NO" verticallyResizable="YES" spellingCorrection="YES" smartInsertDelete="YES" id="0Sd-hS-URU">
-                                            <rect key="frame" x="0.0" y="0.0" width="268" height="160"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="632" height="219"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                            <size key="minSize" width="268" height="160"/>
-                                            <size key="maxSize" width="285" height="10000000"/>
+                                            <size key="minSize" width="632" height="219"/>
+                                            <size key="maxSize" width="642" height="10000000"/>
                                         </textView>
                                     </subviews>
                                 </clipView>
@@ -752,15 +791,24 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                                 <scroller key="verticalScroller" verticalHuggingPriority="750" horizontal="NO" id="zs6-Rp-MiA">
-                                    <rect key="frame" x="269" y="1" width="15" height="160"/>
+                                    <rect key="frame" x="633" y="1" width="15" height="219"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                             </scrollView>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="39P-N2-Ndk">
-                                <rect key="frame" x="173" y="293" width="135" height="134"/>
+                                <rect key="frame" x="288" y="397" width="135" height="134"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <imageCell key="cell" controlSize="large" continuous="YES" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="ue-logotype-2023-vertical-white-1686x2048-bbfded26daa7" id="Vob-cm-bjG"/>
                             </imageView>
+                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="66p-UL-OVx">
+                                <rect key="frame" x="615" y="32" width="77" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <textFieldCell key="cell" controlSize="large" lineBreakMode="clipping" continuous="YES" alignment="center" title="v1.0.6 build" id="XVH-47-pxF">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="tertiaryLabelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="R6Z-0o-vzb"/>
                         <viewLayoutGuide key="layoutMargins" id="rdT-ZQ-FVJ"/>
@@ -771,7 +819,7 @@
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="757"/>
+            <point key="canvasLocation" x="190" y="800"/>
         </scene>
     </scenes>
     <resources>
