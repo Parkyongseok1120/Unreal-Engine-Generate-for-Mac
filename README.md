@@ -8,7 +8,7 @@ This tool is designed to make the "Generate Visual Studio project files" feature
 
 # Now Release version: 1.0.6
 ------------------
-Release Download Link : 
+Release Download Link : https://github.com/Parkyongseok1120/Unreal-Engine-Generate-for-Mac/releases/tag/v1
 
 ------------------
 # Support info 
