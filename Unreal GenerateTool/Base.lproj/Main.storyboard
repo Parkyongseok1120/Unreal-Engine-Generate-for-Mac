@@ -770,7 +770,7 @@
                                 </connections>
                             </button>
                             <scrollView fixedFrame="YES" borderType="line" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" scrollerKnobStyle="dark" translatesAutoresizingMaskIntoConstraints="NO" id="a12-Vx-5JQ">
-                                <rect key="frame" x="31" y="126" width="649" height="221"/>
+                                <rect key="frame" x="31" y="131" width="649" height="221"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <clipView key="contentView" drawsBackground="NO" id="KzS-bW-WIa">
                                     <rect key="frame" x="1" y="1" width="632" height="219"/>
