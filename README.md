@@ -13,16 +13,16 @@ Release Download Link : https://github.com/Parkyongseok1120/Unreal-Engine-Genera
 ------------------
 # Support info 
 
-# Support IDE
+## Support IDE
 - JetBrains Rider IDE : Please open the solution with the .uproject file. (The .sln file does not work.)
 - Xcode(default)
 
 ## Supported Unreal engine Versions: 
-Unreal Engine 5.0 to 5.5 
+- Unreal Engine 5.0 to 5.5 
 
 ## Supported macOS Versions: 
-Minimum: macOS 11 (Big Sur)
-Recommended: macOS 12 (Monterey) or later for optimal performance.
+- Minimum: macOS 11 (Big Sur)
+- Recommended: macOS 12 (Monterey) or later for optimal performance.
 (Verified it works with macOS 15.1)
 
 
