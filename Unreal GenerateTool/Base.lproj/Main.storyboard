@@ -773,32 +773,32 @@
                                 <rect key="frame" x="31" y="131" width="649" height="221"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <clipView key="contentView" drawsBackground="NO" id="KzS-bW-WIa">
-                                    <rect key="frame" x="1" y="1" width="632" height="219"/>
+                                    <rect key="frame" x="1" y="1" width="647" height="219"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <textView wantsLayer="YES" importsGraphics="NO" richText="NO" verticallyResizable="YES" spellingCorrection="YES" smartInsertDelete="YES" id="0Sd-hS-URU">
-                                            <rect key="frame" x="0.0" y="0.0" width="632" height="219"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="647" height="219"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                            <size key="minSize" width="632" height="219"/>
+                                            <size key="minSize" width="647" height="219"/>
                                             <size key="maxSize" width="649" height="10000000"/>
                                         </textView>
                                     </subviews>
                                 </clipView>
-                                <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="pIf-9w-HWr">
+                                <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="pIf-9w-HWr">
                                     <rect key="frame" x="-100" y="-100" width="225" height="15"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
-                                <scroller key="verticalScroller" verticalHuggingPriority="750" horizontal="NO" id="zs6-Rp-MiA">
-                                    <rect key="frame" x="633" y="1" width="15" height="219"/>
+                                <scroller key="verticalScroller" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="zs6-Rp-MiA">
+                                    <rect key="frame" x="632" y="1" width="16" height="219"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                             </scrollView>
                             <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="66p-UL-OVx">
-                                <rect key="frame" x="615" y="32" width="77" height="16"/>
+                                <rect key="frame" x="616" y="32" width="76" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <textFieldCell key="cell" controlSize="large" lineBreakMode="clipping" continuous="YES" alignment="center" title="v1.0.6 build" id="XVH-47-pxF">
+                                <textFieldCell key="cell" controlSize="large" lineBreakMode="clipping" continuous="YES" alignment="center" title="v1.0.7 build" id="XVH-47-pxF">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="tertiaryLabelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>

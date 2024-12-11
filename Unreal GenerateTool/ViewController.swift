@@ -45,7 +45,7 @@ class ViewController: NSViewController {
                     let scriptPath = "/Users/Shared/Epic Games/UE_\(engineVersion)/Engine/Build/BatchFiles/Mac/GenerateProjectFiles.sh"
 
                     // 실행 명령 구성
-                    let command = "cd \(fileURL.deletingLastPathComponent().path.escapedForShell()) && \(scriptPath.escapedForShell()) -project=\(fileURL.path.escapedForShell())"
+                    let command = "cd \(fileURL.deletingLastPathComponent().path.escapedForShell()) && \(scriptPath.escapedForShell()) -project=\(fileURL.path.escapedForShell()) -Rider"
 
                     // 명령 실행
                     self.executeShellCommand(command)
@@ -56,19 +56,6 @@ class ViewController: NSViewController {
                 print("Error reading .uproject file: \(error)")
             }
         }
-
-    func readEngineVersion(from fileURL: URL) -> String? {
-        do {
-            let data = try Data(contentsOf: fileURL)
-            if let json = try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any],
-               let engineVersion = json["EngineAssociation"] as? String {
-                return engineVersion
-            }
-        } catch {
-            print("Error reading engine version: \(error.localizedDescription)")
-        }
-        return nil
-    }
 
     func executeShellCommand(_ command: String) {
         let task = Process()
