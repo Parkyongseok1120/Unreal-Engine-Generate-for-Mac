@@ -6,7 +6,7 @@
 # What is it?
 This tool is designed to make the "Generate Visual Studio project files" feature available on Windows more accessible on macOS. There's no need to hassle with the terminal anymore!
 
-# Now Release version: 1.0.7
+# Now Release version: 1.1.0(Update : 2025.05.02)
 ------------------
 Release Download Link : https://github.com/Parkyongseok1120/Unreal-Engine-Generate-for-Mac/releases/tag/v1
 
@@ -18,12 +18,14 @@ Release Download Link : https://github.com/Parkyongseok1120/Unreal-Engine-Genera
 - Xcode(default)
 
 ## Supported Unreal engine Versions: 
-- Unreal Engine 5.0 to 5.5 
+- Unreal Engine 5.0 to 5.5
+- GitHub Unreal Engine Source Version(and Custom Engine)
+
 
 ## Supported macOS Versions: 
 - Minimum: macOS 11 (Big Sur)
 - Recommended: macOS 12 (Monterey) or later for optimal performance.
-(Verified it works with macOS 15.1)
+(Verified it works with macOS 15.4.1)
 
 
 --------------------
